@@ -1,0 +1,92 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .description {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 1.5rem;
+  }
+  
+  .scannerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reader {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  
+  .scanButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scanButton:hover {
+    background-color: #2980b9;
+  }
+  
+  .scannedCodes {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .scannedCodes h2 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .scannedCodes ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  .scannedCodes li {
+    margin-bottom: 0.25rem;
+    color: #34495e;
+  }
